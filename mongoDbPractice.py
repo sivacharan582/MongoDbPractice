@@ -11,6 +11,19 @@ d = {
     "Age": 27,
     "Gender": "M"
 }
+
+d = {
+    "Name": "sivacharan",
+    "lastName": "Appajodu",
+    "Age": 27,
+    "Gender": "M"
+}
+d = {
+    "Name": "sivacharan",
+    "lastName": "Appajodu",
+    "Age": 27,
+    "Gender": "M"
+}
 db1 = Dbconnect['monogopractice']
 col = db1['Test']
 col.insert_one(d)
