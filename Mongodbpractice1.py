@@ -13,7 +13,7 @@ list_of_records = [
 
 database=client['monogopractice']
 
-collections=database['dressinfo']
+#collections=database['dressinfo']
 #collections.insert_many(list_of_records)
 
 #records= collections.find({"product":"Affordable AI"})
