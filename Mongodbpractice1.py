@@ -17,6 +17,6 @@ collections=database['dressinfo']
 #collections.insert_many(list_of_records)
 
 #records= collections.find({"product":"Affordable AI"})
-records= collections.find({"courseOffered":{"$gt":"E"}})
+#records= collections.find({"courseOffered":{"$gt":"E"}})
 for i in records:
     print(i)
